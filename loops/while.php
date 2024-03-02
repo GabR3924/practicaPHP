@@ -1,5 +1,5 @@
 <?php
-    $title = 'For Loop';
+    $title = 'While Loop';
 
     $guitars = ['Vela', 'Explorer', 'Start', 'Aver'];
 
@@ -15,11 +15,16 @@
 <body>
     <h1>Mis guitarras favoritas</h1>
     <?php
-       
-       for($i = 0; $i < count($guitars); $i++){
-        $guitar = $guitars[$i];
-        echo $guitar;
-       }
+
+    $i = 0;
+
+        while ($i < count($guitars)){
+            $guitar = $guitars[$i];
+            echo $guitar;
+
+            $i++;
+
+        }
     
     ?>
 </body>
