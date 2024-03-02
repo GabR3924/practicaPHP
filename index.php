@@ -9,17 +9,34 @@
         'gato',
         'loro',
         'serpiente',
-    ])
+    ]);
 
+    //tipos de datos
+
+    $numero = 123.455555;
+
+    $result = 15 < 23; 
+
+    //tradicional array
+    $guitars = ['Vela', 'Explorer', 'Start'];
+
+    // print_r($guitars);
+    // echo $guitars[1];
+
+    //associative array
+    $guitar2 = [
+        'prs' => 'Vela',
+        'gibson' => 'Explorer',
+        'fender' => 'Strat'
+    ];
+
+    // echo $guitar2['prs'];
+
+    //loops
+    //foreach
 ?>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h1><?php echo ANIMALES[1]; ?></h1>
-    </body>
-    </html>
+
+
+
+
+ 
